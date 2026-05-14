@@ -17,7 +17,7 @@ jobs:
         run: |
           wget https://downloads.openwrt.org/releases/21.02.1/targets/ramips/mt7620/openwrt-sdk-21.02.1-ramips-mt7620_gcc-8.4.0_musl.Linux-x86_64.tar.xz
           tar -xf openwrt-sdk-21.02.1-ramips-mt7620_gcc-8.4.0_musl.Linux-x86_64.tar.xz
-          mv penwrt-sdk-21.02.1-ramips-mt7620_gcc-8.4.0_musl.Linux-x86_64 openwrt-sdk
+          mv openwrt-sdk-21.02.1-ramips-mt7620_gcc-8.4.0_musl.Linux-x86_64 openwrt-sdk
 
       - name: Install feeds
         working-directory: openwrt-sdk
